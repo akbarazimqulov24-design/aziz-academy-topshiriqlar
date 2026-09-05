@@ -1,0 +1,1 @@
+print(sum(1 for ch in input() if ch in "aeiou"))
