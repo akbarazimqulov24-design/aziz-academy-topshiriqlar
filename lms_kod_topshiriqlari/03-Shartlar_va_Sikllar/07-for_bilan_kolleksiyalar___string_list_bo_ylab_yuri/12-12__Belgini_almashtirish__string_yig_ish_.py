@@ -1,0 +1,1 @@
+print(input().replace('asso' if False else 'a', '@'))
