@@ -1,0 +1,3 @@
+input()
+sonlar = list(map(int, input().split()))
+print(max(sonlar))
