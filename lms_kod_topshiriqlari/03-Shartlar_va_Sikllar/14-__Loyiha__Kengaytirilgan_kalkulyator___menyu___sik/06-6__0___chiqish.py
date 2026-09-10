@@ -1,0 +1,1 @@
+print("Exit" if int(input()) == 0 else "Continue")
