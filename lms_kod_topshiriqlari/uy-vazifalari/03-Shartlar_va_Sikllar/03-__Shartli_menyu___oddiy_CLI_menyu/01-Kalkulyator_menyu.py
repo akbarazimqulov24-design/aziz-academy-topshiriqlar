@@ -1,14 +1,14 @@
-amal = int(input())
+op = int(input())
 a = int(input())
 b = int(input())
 
-if amal == 1:
+if op == 1:
     print(a + b)
-elif amal == 2:
+elif op == 2:
     print(a - b)
-elif amal == 3:
+elif op == 3:
     print(a * b)
-elif amal == 4:
+elif op == 4:
     print(a // b)
 else:
     print("Notogri amal")
