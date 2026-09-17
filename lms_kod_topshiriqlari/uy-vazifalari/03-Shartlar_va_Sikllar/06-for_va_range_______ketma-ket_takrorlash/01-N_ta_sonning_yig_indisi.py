@@ -1,8 +1,7 @@
 n = int(input())
-total = 0
 
+yigindi = 0
 for _ in range(n):
-    num = int(input())
-    total += num
+    yigindi += int(input())
     
-print(total)
+print(yigindi)
