@@ -1,5 +1,7 @@
 s = input()
-res = ""
+
+r = ""
 for ch in s:
-    res = ch + res
-print(res)
+    r = ch + r
+    
+print(r)
