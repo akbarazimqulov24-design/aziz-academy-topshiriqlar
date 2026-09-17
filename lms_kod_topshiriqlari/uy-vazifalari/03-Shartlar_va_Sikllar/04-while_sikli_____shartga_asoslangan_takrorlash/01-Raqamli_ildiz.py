@@ -1,9 +1,11 @@
-n = input()
+n = int(input())
 
-while len(n) > 1:
+while n >= 10:
     yigindi = 0
-    for x in n:
-        yigindi += int(x)
-    n = str(yigindi)
+    temp = n
+    while temp > 0:
+        yigindi += temp % 10
+        temp //= 10
+    n = yigindi
     
 print(n)
