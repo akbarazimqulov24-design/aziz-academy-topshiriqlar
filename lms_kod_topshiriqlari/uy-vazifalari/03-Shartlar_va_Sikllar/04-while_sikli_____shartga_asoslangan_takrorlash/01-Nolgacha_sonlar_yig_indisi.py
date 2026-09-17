@@ -1,8 +1,9 @@
 yigindi = 0
-son = int(input())
 
-while son != 0:
-    yigindi += son
-    son = int(input())
+while True:
+    n = int(input())
+    if n == 0:
+        break
+    yigindi += n
     
 print(yigindi)
