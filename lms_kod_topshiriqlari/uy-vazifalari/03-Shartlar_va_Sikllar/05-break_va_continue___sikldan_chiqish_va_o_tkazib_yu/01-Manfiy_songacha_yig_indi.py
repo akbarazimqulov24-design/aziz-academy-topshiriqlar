@@ -5,5 +5,5 @@ while True:
     if son < 0:
         break
     yigindi += son
-   
+    
 print(yigindi)
