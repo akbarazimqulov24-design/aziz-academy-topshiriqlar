@@ -1,6 +1,6 @@
 n = int(input())
-teskari = 0
 
+teskari = 0
 while n > 0:
     qoldiq = n % 10
     teskari = teskari * 10 + qoldiq
