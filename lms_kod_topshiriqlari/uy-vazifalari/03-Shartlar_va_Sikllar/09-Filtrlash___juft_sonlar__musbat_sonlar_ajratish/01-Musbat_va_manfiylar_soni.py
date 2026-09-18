@@ -1,13 +1,4 @@
-n = int(input())
+import sys
 
-musbat = 0
-manfiy = 0
-
-for _ in range(n):
-    x = int(input())
-    if x > 0:
-        musbat += 1
-    elif x < 0:
-        manfiy += 1
-        
-print(musbat, manfiy)
+a = list(map(int, sys.stdin.read().split()))[1:]
+print(sum(x > 0 for x in a), sum(x < 0 for x in a))
