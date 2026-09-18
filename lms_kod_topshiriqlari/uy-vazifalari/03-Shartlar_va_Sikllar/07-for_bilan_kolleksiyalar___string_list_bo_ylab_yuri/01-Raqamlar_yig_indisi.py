@@ -1,1 +1,7 @@
-print(sum(int(ch) for ch in input()))
+s = input()
+total = 0
+
+for ch in s:
+    total += int(ch)
+    
+print(total)    
