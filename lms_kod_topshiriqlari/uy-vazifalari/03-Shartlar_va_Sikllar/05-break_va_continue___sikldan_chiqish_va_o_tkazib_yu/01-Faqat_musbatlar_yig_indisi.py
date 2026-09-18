@@ -1,4 +1,12 @@
-s = 0
-for _ in range(int(input())):
-    if (x := int(input())) > 0: s += x
-print(s)
+n = int(input())
+total = 0
+i = 0
+
+while i < n:
+    num = int(input())
+    i += 1
+    if num <= 0:
+        continue
+    total += num
+    
+print(total)
