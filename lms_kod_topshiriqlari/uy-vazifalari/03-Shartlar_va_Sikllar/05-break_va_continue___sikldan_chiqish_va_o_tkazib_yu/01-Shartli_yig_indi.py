@@ -1,5 +1,13 @@
-s = 0
-while (n := int(input())) != 0:
-    if n > 100: break
-    if n > 0: s += n
-print(s)
+total = 0
+
+while True:
+    num = int(input())
+    
+    if num == 0 or num > 100:
+        break
+    if num < 0:
+        continue
+        
+    total += num 
+    
+print(total)    
