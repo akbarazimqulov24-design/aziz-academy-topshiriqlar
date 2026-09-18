@@ -1,1 +1,10 @@
-print(sum(1 for ch in input() if ch in "aeiou"))
+word = input()
+count = 0
+
+for ch in word:
+    if ch in "aeiou":
+        count += 1 
+       
+print(count)    
+        
+    
