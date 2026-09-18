@@ -1,9 +1,2 @@
-a = int(input())
-b = int(input())
-
-yigindi = 0
-for i in range(a, b + 1):
-    if i % 2 == 0:
-        yigindi += i
-        
-print(yigindi)
+a, b = int(input()), int(input())
+print(sum(x for x in range(a, b + 1) if x % 2 == 0))
