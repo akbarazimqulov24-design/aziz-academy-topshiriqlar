@@ -1,3 +1,7 @@
 n = int(input())
-s = [int(input()) for _ in range(n)]
-print(sum(s) // n)
+total = 0
+
+for _ in range(n):
+    total += int(input())
+    
+print(total // n)    
