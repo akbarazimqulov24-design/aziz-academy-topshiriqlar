@@ -1,0 +1,1 @@
+print("OK" if input().strip() in {'python', 'java', 'c++'} else "NO")
