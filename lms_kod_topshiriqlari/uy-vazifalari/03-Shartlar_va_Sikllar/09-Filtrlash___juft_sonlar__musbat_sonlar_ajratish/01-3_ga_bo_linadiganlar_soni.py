@@ -6,4 +6,4 @@ for _ in range(n):
     if num % 3 == 0:
         count += 1
         
-print(count)
+print(count)        
