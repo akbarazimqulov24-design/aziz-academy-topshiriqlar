@@ -1,0 +1,1 @@
+print("YES" if int(input()) in {5, 10, 15} else "NO")
