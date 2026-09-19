@@ -1,0 +1,1 @@
+print("YES" if int(input()) not in {1, 2, 3} else "NO")
