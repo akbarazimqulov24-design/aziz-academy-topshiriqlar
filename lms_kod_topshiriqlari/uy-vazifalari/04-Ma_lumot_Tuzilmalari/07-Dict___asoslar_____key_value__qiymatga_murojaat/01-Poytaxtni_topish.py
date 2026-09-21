@@ -1,0 +1,1 @@
+print({"Uzbekistan": "Tashkent", "Russia": "Moscow", "France": "Paris", "Japan": "Tokyo"}[input()])
