@@ -1,1 +1,7 @@
-print("YES" if int(input()) in {5, 10, 15} else "NO")
+n = int(input())
+s = {5, 10, 15}
+
+if n in s:
+    print("YES")
+else:
+    print("NO")
