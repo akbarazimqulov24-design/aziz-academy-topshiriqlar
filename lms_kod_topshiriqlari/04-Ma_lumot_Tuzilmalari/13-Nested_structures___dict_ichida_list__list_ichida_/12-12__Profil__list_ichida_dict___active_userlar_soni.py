@@ -1,8 +1,2 @@
 n = int(input().strip())
-users = []
-for _ in range(n):
-    username, active = input().split()
-    users.append({'username': username, 'active': active == '1'})
-
-active_cound = sum(1 for user in users if user['active'])
-print(active_cound)
+print(sum(int(input().split()[1]) for _ in range(n)))
