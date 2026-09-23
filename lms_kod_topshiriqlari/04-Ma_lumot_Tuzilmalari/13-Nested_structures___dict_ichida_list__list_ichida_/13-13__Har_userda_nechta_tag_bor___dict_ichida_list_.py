@@ -1,11 +1,10 @@
-n = int(input().strip())
-users = []
-for _ in range(n):
-    parts = input().split()
-    username = parts[0]
-    k = int(parts[1])
-    tags = parts[2:2+k]
-    users.append({'username': username, 'tags': tags})
+import sys
 
-for u in users:
-    print(u['username'], len(u['tags']))
+d = sys.stdin.read().split()
+if d:
+    i = 1
+    for _ in range(int(d[0])):
+        name = d[i]
+        k = int(d[i + 1])
+        print(name, k)
+        i += 2 + k
