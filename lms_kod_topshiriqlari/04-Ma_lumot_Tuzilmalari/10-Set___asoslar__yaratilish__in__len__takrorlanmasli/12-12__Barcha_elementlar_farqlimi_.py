@@ -1,2 +1,6 @@
-a = input().split()
-print("Ha" if len(a) == len(set(a)) else "Yo'q")
+lst = list(map(int, input().split()))
+
+if len(lst) == len(set(lst)):
+    print("Ha")
+else:
+    print("Yo'q")
