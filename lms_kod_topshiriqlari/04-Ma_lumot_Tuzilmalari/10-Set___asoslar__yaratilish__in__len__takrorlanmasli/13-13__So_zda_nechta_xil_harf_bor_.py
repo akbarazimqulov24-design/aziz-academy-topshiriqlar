@@ -1,1 +1,2 @@
-print(len(set(input().strip())))
+word = input()
+print(len(set(word)))
