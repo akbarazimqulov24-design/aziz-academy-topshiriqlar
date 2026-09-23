@@ -1,14 +1,12 @@
-n = int(input().strip())
-users = []
-for _ in range(n):
-    parts = input().split()
-    username = parts[0]
-    k = int(parts[1])
-    tags = parts[2:2+k]
-    users.append({'username': username, 'tags': tags})
+import sys
 
-unique_tags = set()
-for user in users:
-    unique_tags.update(user['tags'])
-    
-print(len(unique_tags))    
+d = sys.stdin.read().split()
+if d:
+    n = int(d[0])
+    s = set()
+    i = 1
+    for _ in range(n):
+        k = int(d[i + 1])
+        s.update(d[i + 2 : i + 2 + k])
+        i += 2 + k
+    print(len(s))
