@@ -1,3 +1,9 @@
+# INPUT:
+# n
+# n qator: name price qty
+# Vazifa: eng katta price ga ega mahsulot nomini chiqaring.
+# Agar teng bo‘lsa: birinchi uchraganini chiqaring.
+
 n = int(input().strip())
 items = []
 for _ in range(n):
