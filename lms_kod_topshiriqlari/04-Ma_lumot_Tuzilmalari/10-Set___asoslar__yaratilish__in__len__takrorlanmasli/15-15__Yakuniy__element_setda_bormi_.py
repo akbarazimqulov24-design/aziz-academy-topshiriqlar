@@ -1,2 +1,2 @@
-s = set(input().split())
-print("Ha" if input().strip() in s else "Yo'q")
+s = set(map(int, input().split()))
+print("Ha" if int(input()) in s else "Yo'q")
