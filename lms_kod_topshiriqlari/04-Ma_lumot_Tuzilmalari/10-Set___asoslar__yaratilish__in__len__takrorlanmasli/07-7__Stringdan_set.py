@@ -1,2 +1,3 @@
-res = sorted(set(input().strip()))
-print("{" + ", ".join(f"'{x}'" for x in res) + "}")
+s = sorted(set(input()))
+print("{" + ", ".join(repr(x) for x in s) + "}")
+           
