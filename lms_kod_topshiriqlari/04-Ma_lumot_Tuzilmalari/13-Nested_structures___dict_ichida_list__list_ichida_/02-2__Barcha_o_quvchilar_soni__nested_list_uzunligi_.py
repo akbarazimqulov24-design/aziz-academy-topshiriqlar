@@ -1,10 +1,10 @@
 n = int(input().strip())
-data = {'courses': []}
+total_students = 0
+
 for _ in range(n):
     parts = input().split()
-    name = parts[0]
-    k = int(parts[1])
-    students = parts[2:2+k]
-    data['courses'].append({'name': name, 'students': students})
-
-print(len(data['courses']))
+    if len(parts) > 1:
+        k = int(parts[1])
+        total_students += k
+        
+print(total_students)        
