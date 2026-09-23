@@ -1,1 +1,2 @@
-print(len(set(input().split())))
+data = set(map(int, input().split()))
+print(len(data))
