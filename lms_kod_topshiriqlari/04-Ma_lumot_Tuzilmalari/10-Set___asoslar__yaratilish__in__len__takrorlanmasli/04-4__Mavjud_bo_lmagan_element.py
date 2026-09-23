@@ -1,1 +1,7 @@
-print("YES" if int(input()) not in {1, 2, 3} else "NO")
+n = int(input())
+s = {1, 2, 3}
+
+if n not in s:
+    print("YES")
+else:
+    print("NO")
