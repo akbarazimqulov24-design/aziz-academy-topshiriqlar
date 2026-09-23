@@ -1,2 +1,2 @@
-a = input().split()
-print(len(a) - len(set(a)))
+data = list(map(int, input().split()))
+print(len(data) - len(set(data)))            
