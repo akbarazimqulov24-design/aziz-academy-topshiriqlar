@@ -1,0 +1,7 @@
+a = list(map(int, input().split()))
+n = len(a)
+e = sum(1 for x in a if x % 2 == 0)
+print(f"count: {n}")
+print(f"sum: {sum(a)}\nmin: {min(a)}\nmax: {max(a)}")
+print(f"mean: {sum(a)/n:.2f}")
+print(f"evens: {e}\nodds: {n - e}")
