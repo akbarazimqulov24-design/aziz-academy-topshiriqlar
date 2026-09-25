@@ -1,1 +1,2 @@
-print(*input(), sep='\n')
+for ch in input():
+    print(ch)
