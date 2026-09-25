@@ -1,9 +1,8 @@
 n = int(input())
 count = 0
 
-for _ in range(n):
-    num = int(input())
-    if num > 0:
+for ch in range(n):
+    if int(input()) > 0:
         count += 1
         
-print(count)
+print(count)        
