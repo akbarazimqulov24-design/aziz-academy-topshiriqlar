@@ -1,0 +1,10 @@
+name = input()
+price = int(input())
+count = int(input())
+
+print("===== CHEK =====")
+print(f"Mahsulot: {name}")
+print(f"Narx: {price}")
+print(f"Soni: {count}")
+print(f"Jami: {price * count}")
+print("================")
