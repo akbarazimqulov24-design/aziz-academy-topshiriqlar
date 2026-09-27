@@ -1,13 +1,8 @@
-menyu = int(input())
-n = int(input())
+choice, n = input(), int(input())
 
-if menyu == 1:
-    minut = n // 60
-    soniya = n % 60
-    print(f"{minut} minut {soniya} soniya")
-elif menyu == 2:
-    soat = n // 60
-    minut = n % 60
-    print(f"{soat} soat {minut} minut")
+if choice == "1":
+    print(f"{n // 60} minut {n % 60} soniya")
+elif choice == "2":
+    print(f"{n // 60} soat {n % 60} minut")
 else:
     print("Notogri tanlov")
