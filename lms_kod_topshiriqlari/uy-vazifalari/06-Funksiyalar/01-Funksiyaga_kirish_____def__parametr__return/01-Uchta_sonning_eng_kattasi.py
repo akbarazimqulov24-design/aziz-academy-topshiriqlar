@@ -1,0 +1,13 @@
+a = int(input())
+b = int(input())
+c = int(input())
+
+def eng_katta(a, b, c):
+    if a >= a and a >= c:
+        return a
+    elif b >= a and b >= c:
+        return b
+    else:
+        return c
+    
+print(eng_katta(a, b, c))    
