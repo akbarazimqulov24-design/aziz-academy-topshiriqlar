@@ -1,0 +1,1 @@
+print(sorted({w.lower() for w in input().split()}))
